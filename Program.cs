@@ -111,13 +111,27 @@ namespace ConsoleApplicationsTDPC14
          chiedere all'utente 3 numeri
          generare 3 numeri casuali tra 0 e 10
          stampare la somma dei 6 numeri
-         stampare la data corrente + tanti giorni
-         quanto il risultato della somma
+         stampare la data corrente + tanti giorni quanto il risultato della somma
          */
         static void Main(string[] args)
         {
+            Console.WriteLine("Inserisci il numero 1");
+            int numero1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Inserisci il numero 2");
+            int numero2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Inserisci il numero 3");
+            int numero3 = int.Parse(Console.ReadLine());
+
             Random r = new Random();
-            r.Next(..., ...);
+            int numero4 = r.Next(0, 11);
+            int numero5 = r.Next(0, 11);
+            int numero6 = r.Next(0, 11);
+
+            int somma = numero1 + numero2 + numero3 + numero4 + numero5 + numero6;
+            Console.WriteLine("somma: " + somma);
+
+            DateTime currentTime = DateTime.Now;
+            Console.WriteLine("data corrente + somma: " + currentTime.AddDays(somma));
         }
     }
 }
