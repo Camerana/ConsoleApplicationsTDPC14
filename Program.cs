@@ -18,6 +18,7 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
+            double credito = 5;
             string[] prodotti = new string[3];
             prodotti[0] = "patatine";
             prodotti[1] = "biscotti";
@@ -27,26 +28,29 @@ namespace ConsoleApplicationsTDPC14
             costi[0] = 1.5;
             costi[1] = 2;
             costi[2] = 1;
-
-            double credito = 5;
-
-            Console.WriteLine("Cosa vuoi comprare ?");
-            Console.WriteLine("Prodotti disponibili:");
-            Console.WriteLine("1 = patatine");
-            Console.WriteLine("2 = biscotti");
-            Console.WriteLine("3 = brioche");
-
-            int input = int.Parse(Console.ReadLine()) - 1;
-
-            if (credito >= costi[input])
+            while (true)
             {
-                credito = credito - costi[input];
-                Console.WriteLine("hai comprato " + prodotti[input]);
-                Console.WriteLine("ti restano: " + credito + " euro");
-            }
-            else
-            {
-                Console.WriteLine("non hai abbastanza soldi");
+                Console.WriteLine("hai " + credito + " euro");
+
+                Console.WriteLine("Cosa vuoi comprare ?");
+                Console.WriteLine("Prodotti disponibili:");
+                Console.WriteLine("1 = " + prodotti[0] + " " + costi[0]);
+                Console.WriteLine("2 = " + prodotti[1] + " " + costi[1]);
+                Console.WriteLine("3 = " + prodotti[2] + " " + costi[2]);
+
+                int input = int.Parse(Console.ReadLine()) - 1;
+
+                if (credito >= costi[input])
+                {
+                    credito = credito - costi[input];
+                    Console.WriteLine("hai comprato " + prodotti[input]);
+                    Console.WriteLine("ti restano: " + credito + " euro");
+                }
+                else
+                {
+                    Console.WriteLine("non hai abbastanza soldi");
+                }
+                Console.WriteLine();
             }
         }
     }
