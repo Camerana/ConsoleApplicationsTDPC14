@@ -30,10 +30,12 @@ namespace ConsoleApplicationsTDPC14
 
             double credito = 5;
 
+            Console.WriteLine("Cosa vuoi comprare ?");
             Console.WriteLine("Prodotti disponibili:");
             Console.WriteLine("1 = patatine");
             Console.WriteLine("2 = biscotti");
             Console.WriteLine("3 = brioche");
+
             int input = int.Parse(Console.ReadLine()) - 1;
 
             if (credito >= costi[input])
