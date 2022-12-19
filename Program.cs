@@ -94,32 +94,65 @@ namespace ConsoleApplicationsTDPC14
             - se la stringa dell'utente è di lunghezza maggiore o minore di ciascuna 
             delle due variabili
          */
-        static void Main(string[] args)
-        {
-            string stringa1 = "stringa 1";
-            string stringa2 = "sono la stringa 2";
-            Console.WriteLine("inserisci una stringa");
-            string input = Console.ReadLine();
+        //static void Main(string[] args)
+        //{
+        //    string stringa1 = "stringa 1";
+        //    string stringa2 = "sono la stringa 2";
+        //    Console.WriteLine("inserisci una stringa");
+        //    string input = Console.ReadLine();
 
-            if (input == stringa1)
-                Console.WriteLine("l'input utente è uguale alla stringa 1");
-            if (input == stringa2)
-                Console.WriteLine("l'input utente è uguale alla stringa 2");
+        //    if (input == stringa1)
+        //        Console.WriteLine("l'input utente è uguale alla stringa 1");
+        //    if (input == stringa2)
+        //        Console.WriteLine("l'input utente è uguale alla stringa 2");
 
-            if (input.Length > stringa1.Length)
-                Console.WriteLine("l'input è di lunghezza maggiore alla stringa 1");
-            else if (input.Length < stringa1.Length)
-                Console.WriteLine("l'input è di lunghezza minore alla stringa 1");
-            else if (input.Length == stringa1.Length)
-                Console.WriteLine("l'input è di lunghezza uguale alla stringa 1");
+        //    if (input.Length > stringa1.Length)
+        //        Console.WriteLine("l'input è di lunghezza maggiore alla stringa 1");
+        //    else if (input.Length < stringa1.Length)
+        //        Console.WriteLine("l'input è di lunghezza minore alla stringa 1");
+        //    else if (input.Length == stringa1.Length)
+        //        Console.WriteLine("l'input è di lunghezza uguale alla stringa 1");
 
-            if (input.Length > stringa2.Length)
-                Console.WriteLine("l'input è di lunghezza maggiore alla stringa 2");
-            else if (input.Length < stringa2.Length)
-                Console.WriteLine("l'input è di lunghezza minore alla stringa 2");
-            else if (input.Length == stringa2.Length)
-                Console.WriteLine("l'input è di lunghezza uguale alla stringa 2");
+        //    if (input.Length > stringa2.Length)
+        //        Console.WriteLine("l'input è di lunghezza maggiore alla stringa 2");
+        //    else if (input.Length < stringa2.Length)
+        //        Console.WriteLine("l'input è di lunghezza minore alla stringa 2");
+        //    else if (input.Length == stringa2.Length)
+        //        Console.WriteLine("l'input è di lunghezza uguale alla stringa 2");
+        //}
 
-        }
+        /*
+            - generare 10 numeri casuali
+            - ordinare i numeri in ordine crescente
+            - stampare su schermo i numeri ordinati
+            - stampare su schermo la somma dei numeri
+         */
+        /*
+            - generare una stringa casuale dati 5 caratteri disponibili
+         */
+        /*
+            - chiedere all'utente 3 numeri e 3 stringhe
+            - stampare su schermo la somma e il prodotto dei numeri
+            - stampare su schermo le 3 stringhe in ordine di lunghezza
+            crescente
+         */
+        /*
+            - chiedere all'utente un colore scegliendo
+            da n colori disponibili
+            - a seconda della scelta dell'utente, stampare su schermo
+            una stringa qualsiasi con il colore scelto dall'utente         
+         */
+        /*
+            - simulare una partita di testa e croce fra 2 giocatori
+         */
+        /*
+            - chiedere all'utente i dati:
+                - nome
+                - cognome
+                - eta
+            - stampare su schermo i dati dell'utente
+            - stampare su schermo i dati dell'utente in ordine
+            inverso (es: Marco -> ocraM) 
+         */
     }
 }
