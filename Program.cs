@@ -4,7 +4,11 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        /*aggiornamento 20.40*/
+        static void Main(string[] args)
+        {
+
+        }
+
         /*
          - generare un numero casuale compreso tra 1 e 10
          - chiedere all'utente una stringa di lunghezza maggiore di 10 caratteri
@@ -13,26 +17,48 @@ namespace ConsoleApplicationsTDPC14
          - tramite il numero casuale, stampare su schermo il carattere che si
          trova nella stringa all'indice corrispondente
          */
+        //static void Main(string[] args)
+        //{
+        //    Random random = new Random();
+        //    int numero = random.Next(1, 10);
+        //    Console.WriteLine("inserisci una stringa di lunghezza maggiore di 10 caratteri");
+        //    string input = Console.ReadLine();
+        //    if (input.Length > 10)
+        //        Console.WriteLine(input.Substring(numero, 1));
+        //    else
+        //        Console.WriteLine("la stringa è troppo corta");
+        //}
+
         /*
          - data una stringa arbitraria:
             - chiedere all'utente una stringa qualsiasi
             - stampare su schermo se la stringa dell'utente è contenuta nella stringa iniziale
          */
+        //static void Main(string[] args)
+        //{
+        //    string stringa = "questa è una stringa arbitraria";
+        //    Console.WriteLine("inserisci una stringa");
+        //    string input = Console.ReadLine();
+        //    if (stringa.ToLowerInvariant().Contains(input.ToLowerInvariant()))
+        //        Console.WriteLine("la stringa contiene l'input");
+        //}
+
         /*
          - data una stringa arbitraria:
             - chiedere all'utente una stringa qualsiasi
             - stampare su schermo se la stringa iniziale comincia o finisce con 
             la stringa dell'utente
          */
-        static void Main(string[] args)
-        {
-            string stringa = "questA è uNA sTriNGa";
-
-            string parola = "QueSTa";
-
-            bool contains = stringa.ToLowerInvariant().Contains(parola.ToLowerInvariant());
-            Console.WriteLine(contains);
-        }
+        //static void Main(string[] args)
+        //{
+        //    string stringa = "questa è una stringa arbitraria";
+        //    Console.WriteLine("inserisci una stringa");
+        //    string input = Console.ReadLine();
+        //    if (stringa.ToLowerInvariant().StartsWith(input.ToLowerInvariant()))
+        //        Console.WriteLine("la stringa comincia con l'input");
+        //    if (stringa.ToLowerInvariant().EndsWith(input.ToLowerInvariant()))
+        //        Console.WriteLine("la stringa finisce con l'input");
+        //}
 
         /*
          - chiedere all'utente 3 stringhe
