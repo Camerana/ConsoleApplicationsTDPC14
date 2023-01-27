@@ -4,10 +4,29 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        //static void Main(string[] args)
-        //{
+        /*
+         - generare un numero casuale compreso tra 1 e 10
+         - chiedere all'utente una stringa di lunghezza maggiore di 10 caratteri
+            - se l'utente inserisce una stringha di lunghezza minore, stampare un
+            messaggio di errore
+         - tramite il numero casuale, stampare su schermo il carattere che si
+         trova nella stringa all'indice corrispondente
+         */
+        /*
+         - data una stringa arbitraria:
+            - chiedere all'utente una stringa qualsiasi
+            - stampare su schermo se la stringa dell'utente è contenuta nella stringa iniziale
+         */
+        /*
+         - data una stringa arbitraria:
+            - chiedere all'utente una stringa qualsiasi
+            - stampare su schermo se la stringa iniziale comincia o finisce con 
+            la stringa dell'utente
+         */
+        static void Main(string[] args)
+        {
 
-        //}
+        }
 
         /*
          - chiedere all'utente 3 stringhe
@@ -67,35 +86,35 @@ namespace ConsoleApplicationsTDPC14
 
 
         //ESEMPI
-        static void Main(string[] args)
-        {
-            string stringa = "questa è una stringa";
+        //static void Main(string[] args)
+        //{
+        //    string stringa = "questa è una stringa";
 
-            string stringa2 = stringa.Substring(5);
-            string stringa3 = stringa.Substring(5, 10);
+        //    string stringa2 = stringa.Substring(5);
+        //    string stringa3 = stringa.Substring(5, 10);
 
-            string stringa4 = stringa.Replace("questa", "quella");
-            string stringa5 = stringa.ToUpperInvariant();
-            string stringa6 = stringa.ToLowerInvariant();
-            string stringa7 = stringa.Remove(5, 6);
-            string[] parole = stringa.Split(' ');
-            bool contains = stringa.Contains("gegeasgae");
-            bool startsWith = stringa.StartsWith("questa");
-            bool endsWith = stringa.EndsWith("stringa");
+        //    string stringa4 = stringa.Replace("questa", "quella");
+        //    string stringa5 = stringa.ToUpperInvariant();
+        //    string stringa6 = stringa.ToLowerInvariant();
+        //    string stringa7 = stringa.Remove(5, 6);
+        //    string[] parole = stringa.Split(' ');
+        //    bool contains = stringa.Contains("gegeasgae");
+        //    bool startsWith = stringa.StartsWith("questa");
+        //    bool endsWith = stringa.EndsWith("stringa");
 
-            Console.WriteLine(stringa);
-            //Console.WriteLine(stringa2);
-            //Console.WriteLine(stringa3);
-            //Console.WriteLine(stringa4);
-            //Console.WriteLine(stringa5);
-            //Console.WriteLine(stringa6);
-            //Console.WriteLine(stringa7);
-            //for (int i = 0; i < parole.Length; i++)
-            //    Console.WriteLine(parole[i]);
-            //Console.WriteLine(contains);
-            //Console.WriteLine(startsWith);
-            //Console.WriteLine(endsWith);
-            Console.ReadKey();
-        }
+        //    Console.WriteLine(stringa);
+        //    //Console.WriteLine(stringa2);
+        //    //Console.WriteLine(stringa3);
+        //    //Console.WriteLine(stringa4);
+        //    //Console.WriteLine(stringa5);
+        //    //Console.WriteLine(stringa6);
+        //    //Console.WriteLine(stringa7);
+        //    //for (int i = 0; i < parole.Length; i++)
+        //    //    Console.WriteLine(parole[i]);
+        //    //Console.WriteLine(contains);
+        //    //Console.WriteLine(startsWith);
+        //    //Console.WriteLine(endsWith);
+        //    Console.ReadKey();
+        //}
     }
 }
