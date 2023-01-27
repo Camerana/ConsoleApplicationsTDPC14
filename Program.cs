@@ -4,6 +4,7 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*aggiornamento 20.40*/
         /*
          - generare un numero casuale compreso tra 1 e 10
          - chiedere all'utente una stringa di lunghezza maggiore di 10 caratteri
