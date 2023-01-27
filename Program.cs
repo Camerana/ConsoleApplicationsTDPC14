@@ -25,7 +25,12 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
+            string stringa = "questA è uNA sTriNGa";
 
+            string parola = "QueSTa";
+
+            bool contains = stringa.ToLowerInvariant().Contains(parola.ToLowerInvariant());
+            Console.WriteLine(contains);
         }
 
         /*
