@@ -4,9 +4,36 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         - chiedere all'utente 2 numeri
+         - chiedere all'utente 2 stringhe
+         - stampare su schermo la somma dei due numeri
+         - stampare su schermo la "somma" delle due stringhe
+         - stampare su schermo il numero maggiore e il numero minore nel formato:
+            - "numero maggiore: {numeroMaggiore}"
+            - "numero minore: {numeroMinore}"
+         - stampare su schermo la stringa di lunghezza maggiore e minore nel formato:
+            - "stringa di lunghezza maggiore: {stringaDiLunghezzaMaggiore}"
+            - "stringa di lunghezza minore: {stringaDiLunghezzaMinore}"
+         */
+        /*
+         - generare due numeri casuali compresi tra 1 e 5
+         - chiedere all'utente una stringa di lunghezza maggiore di 20 caratteri
+         - stampare su schermo la stringa a partire dall'indice dato dalla somma dei due caratteri
+         */
+        /*
+         - leggere il contenuto di un file e salvarlo in una stringa
+         - chidere all'utente una stringa da ricercare nel testo del file
+         - stampare su schermo se la stringa è contenuta nel testo del file
+         */
+        /*
+         - chiedere all'utente una stringa qualsiasi
+         - chiedere all'utente una stringa da ricercare nella prima stringa
+         - stampare su schermo la prima stringa evidenziando con un colore apposito le occorrenze
+         della seconda stringa
+         */
         static void Main(string[] args)
         {
-
         }
 
         /*
