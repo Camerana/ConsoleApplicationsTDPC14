@@ -4,6 +4,7 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*aggiornamento alle 19.30*/
         /*
          - chiedere all'utente 3 stringhe
          - stampare le 3 stringhe tutte in minuscolo e in maiuscolo
