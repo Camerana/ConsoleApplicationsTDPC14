@@ -13,7 +13,7 @@ namespace ConsoleApplicationsTDPC14
          */
         /*
          - generare un numero casuale compreso fra 1 e 10
-         - data una lunghezza di 15 caratteri:
+         - data una stringa di lunghezza di 15 caratteri:
             - stampare la stringa a partire dall'indice corrispondente al numero
             generato
          - sostituire ogni occorrenza di un carattere a scelta nella stringa
