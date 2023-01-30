@@ -1,20 +1,96 @@
 ﻿using System;
+using System.Threading;
 
 namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
         /*
+         usando qualsiasi mezzo studiato a lezione, costruire una
+         calcolatrice con le 4 operazioni fondamentali
+         - idealmente gestire un loop infinito che permette di
+         eseguire più operazioni..
+         */
+        static void Main(string[] args)
+        {
+
+        }
+
+
+        /*creare le funzioni Somma e Differenza utilizzando parametri
+         in ingresso, return e altri mezzi a piacere*/
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("inserisci il numero 1");
+        //    int num1 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("inserisci il numero 2");
+        //    int num2 = int.Parse(Console.ReadLine());
+
+        //    int somma = GetSomma(num1, num2);
+        //    Console.WriteLine("la somma è: " + somma);
+
+        //    int differenza = GetDifferenza(num1, num2);
+        //    Console.WriteLine("la differenza è: " + differenza);
+        //}
+        //static int GetSomma(int numero1, int numero2)
+        //{
+        //    int somma = numero1 + numero2;
+        //    return somma;
+        //}
+        //static int GetDifferenza(int numero1, int numero2)
+        //{
+        //    int differenza = numero1 - numero2;
+        //    return differenza;
+        //}
+
+
+        /*
          tramite due funzioni Somma e Differenza chiedere all'utente
          due numeri ed eseguire le operazioni matematiche relative 
          stampando su schermo il risultato
          */
+        //static void Main(string[] args)
+        //{
+        //    Somma();
+        //    Differenza();
+        //}
+        //static void Somma()
+        //{
+        //    Console.WriteLine("inserisci il numero 1");
+        //    int numero1 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("inserisci il numero 2");
+        //    int numero2 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine(numero1 + numero2);
+        //}
+        //static void Differenza()
+        //{
+        //    Console.WriteLine("inserisci il numero 1");
+        //    int numero1 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("inserisci il numero 2");
+        //    int numero2 = int.Parse(Console.ReadLine());
+        //    Console.WriteLine(numero1 - numero2);
+        //}
+
+
         /*
          creare una funzione PrintRandom che generi due numeri casuali
          e li stampi su schermo
          */
-
-
+        //static void Main(string[] args)
+        //{
+        //    int asfsagewrha = GetRandom();
+        //    PrintRandom(asfsagewrha);
+        //}
+        //static int GetRandom()
+        //{
+        //    Random random = new Random();
+        //    int numero = random.Next();
+        //    return numero;
+        //}
+        //static void PrintRandom(int num)
+        //{
+        //    Console.WriteLine(num);
+        //}
 
         /*
          tramite due funzioni "GetNome" e "GetCognome" chiedere 
