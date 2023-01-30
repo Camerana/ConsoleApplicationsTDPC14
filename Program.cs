@@ -4,6 +4,14 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         tramite due funzioni "GetNome" e "GetCognome" chiedere all'utente i suoi dati
+         anagrafici e stamparli su schermo (senza return)
+         */
+        /*
+         tramite due funzioni "GetNome" e "GetCognome" chiedere all'utente i suoi dati
+         anagrafici, restituirli a main, e in main e stamparli su schermo (con return)
+         */
         static void Main(string[] args)
         {
             string v = Funzione();
