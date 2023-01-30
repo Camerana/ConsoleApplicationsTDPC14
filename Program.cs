@@ -5,6 +5,18 @@ namespace ConsoleApplicationsTDPC14
     internal class Program
     {
         /*
+         tramite due funzioni Somma e Differenza chiedere all'utente
+         due numeri ed eseguire le operazioni matematiche relative 
+         stampando su schermo il risultato
+         */
+        /*
+         creare una funzione PrintRandom che generi due numeri casuali
+         e li stampi su schermo
+         */
+
+
+
+        /*
          tramite due funzioni "GetNome" e "GetCognome" chiedere 
          all'utente i suoi dati
          anagrafici e stamparli su schermo (senza return)
@@ -18,13 +30,13 @@ namespace ConsoleApplicationsTDPC14
         //{
         //    Console.WriteLine("inserisci il tuo nome");
         //    string input = Console.ReadLine();
-        //    Console.WriteLine(input);
+        //    Console.WriteLine("il tuo nome è:" + input);
         //}
         //static void GetCognome()
         //{
         //    Console.WriteLine("inserisci il tuo cognome");
         //    string input = Console.ReadLine();
-        //    Console.WriteLine(input);
+        //    Console.WriteLine("il tuo cognome è:" + input);
         //}
 
 
@@ -34,25 +46,24 @@ namespace ConsoleApplicationsTDPC14
          anagrafici, restituirli a main, e in main e stamparli 
          su schermo (con return)
          */
-        static void Main(string[] args)
-        {
-            string nome = GetNome();
-            Console.WriteLine(nome);
-            string cognome = GetCognome();
-            Console.WriteLine(cognome);
-        }
-        static string GetNome()
-        {
-            Console.WriteLine("inserisci il tuo nome");
-            string input = Console.ReadLine();
-            return input;
-        }
-        static string GetCognome()
-        {
-            Console.WriteLine("inserisci il tuo cognome");
-            string input = Console.ReadLine();
-            return input;
-        }
+        //static void Main(string[] args)
+        //{
+        //    string nome = GetNome();
+        //    string cognome = GetCognome();
+        //    Console.WriteLine("ti chiami: " + nome + " " + cognome);
+        //}
+        //static string GetNome()
+        //{
+        //    Console.WriteLine("inserisci il tuo nome");
+        //    string input = Console.ReadLine();
+        //    return input;
+        //}
+        //static string GetCognome()
+        //{
+        //    Console.WriteLine("inserisci il tuo cognome");
+        //    string input = Console.ReadLine();
+        //    return input;
+        //}
 
         //static void Main(string[] args)
         //{
