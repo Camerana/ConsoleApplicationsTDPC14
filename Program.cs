@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ConsoleApplicationsTDPC14
 {
@@ -10,20 +11,57 @@ namespace ConsoleApplicationsTDPC14
          - tramite una seconda funzione stampare
          su schermo la stringa arbitraria
          */
+        //static void Main(string[] args)
+        //{
+        //    PrintString(GetString());
+        //}
+        //static string GetString()
+        //{
+        //    return "stringa arbitraria";
+        //}
+        //static void PrintString(string s)
+        //{
+        //    Console.WriteLine(s);
+        //}
         /*
          - tramite un ciclo for stampare su schermo
          25 numeri casuali
          - tramite un secondo ciclo for stampare su
          schermo 25 booleani casuali
          */
+        //static void Main(string[] args)
+        //{
+        //    Random random = new Random();
+        //    for (int i = 0; i < 25; i++)
+        //        Console.WriteLine(random.Next());
+        //    for (int i = 0; i < 25; i++)
+        //    {
+        //        int n = random.Next(0, 2);
+        //        if (n == 0)
+        //            Console.WriteLine("False");
+        //        else
+        //            Console.WriteLine("True");
+        //    }
+        //}
+
         /*
          - chiedere all'utente due stringhe e stamparle
          su schermo 50 volte ciascuna
          */
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("inserisci la stringa 1");
+        //    string stringa1 = Console.ReadLine();
+        //    Console.WriteLine("inserisci la stringa 2");
+        //    string stringa2 = Console.ReadLine();
+        //    for (int i = 0; i < 50; i++)
+        //    {
+        //        Console.WriteLine(stringa1);
+        //        Console.WriteLine(stringa2);
+        //    }
+        //}
 
-        }
+
         //static void Main(string[] args)
         //{
         //    for (int i = 0; i < 50; i++)
