@@ -6,6 +6,30 @@ namespace ConsoleApplicationsTDPC14
     internal class Program
     {
         /*
+         
+         */
+
+
+        /*
+         tramite l'uso del ciclo for stampare su schermo
+         un poligono di lato 10 (caratteri)
+         */
+        //static void Main(string[] args)
+        //{
+        //    int dimensione = 4;
+        //    for (int i = 0; i < dimensione; i++)
+        //    {
+        //        string linea = "";
+        //        for (int j = 0; j < dimensione; j++)
+        //        {
+        //            linea += "0";
+        //        }
+        //        Console.WriteLine(linea);
+        //    }
+        //}
+
+
+        /*
          - creare una funzione che restituisca
          una stringa arbitraria
          - tramite una seconda funzione stampare
