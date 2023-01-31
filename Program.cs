@@ -12,12 +12,45 @@ namespace ConsoleApplicationsTDPC14
          all'utente un numero e tramite un'altra funzione
          stampare il numero e il quadrato del numero
          */
+        static void Main(string[] args)
+        {
+            Console.WriteLine("inserisci il tuo nome");
+            string nome = Console.ReadLine();
+            Console.WriteLine("inserisci il tuo cognome");
+            string cognome = Console.ReadLine();
+            for (int i = 0; i < 5; i++)
+                Console.WriteLine(nome + " " + cognome);
+
+            PrintNumber(GetNumber());
+        }
+        static int GetNumber()
+        {
+            Console.WriteLine("inserisci un numero");
+            string input = Console.ReadLine();
+            return int.Parse(input);
+        }
+        static void PrintNumber(int number)
+        {
+            Console.WriteLine(number);
+            Console.WriteLine(number * number);
+        }
+
         /*
          - tramite un ciclo for chiamare 20 volte una
          funzione che abbia un numero in ingresso
          e lo stampi su schermo
          */
-
+        //static void Main(string[] args)
+        //{
+        //    for(int i = 0; i < 20; i++)
+        //    {
+        //        PrintNumber(i);
+        //    }
+        //}
+        //static void PrintNumber(int number)
+        //{
+        //    Console.WriteLine(number);
+        //}
 
         /*
          tramite l'uso del ciclo for stampare su schermo
