@@ -6,7 +6,16 @@ namespace ConsoleApplicationsTDPC14
     internal class Program
     {
         /*
-         
+         - chiedere all'utente i suoi dati anagrafici
+         e tramite un ciclo for stamparli 5 volte
+         - tramite una funzione (con return) chiedere
+         all'utente un numero e tramite un'altra funzione
+         stampare il numero e il quadrato del numero
+         */
+        /*
+         - tramite un ciclo for chiamare 20 volte una
+         funzione che abbia un numero in ingresso
+         e lo stampi su schermo
          */
 
 
