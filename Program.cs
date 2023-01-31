@@ -4,22 +4,42 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         - creare una funzione che restituisca
+         una stringa arbitraria
+         - tramite una seconda funzione stampare
+         su schermo la stringa arbitraria
+         */
+        /*
+         - tramite un ciclo for stampare su schermo
+         25 numeri casuali
+         - tramite un secondo ciclo for stampare su
+         schermo 25 booleani casuali
+         */
+        /*
+         - chiedere all'utente due stringhe e stamparle
+         su schermo 50 volte ciascuna
+         */
         static void Main(string[] args)
         {
-            for (int i = 0; i < 50; i++)
-            {
-                for (int j = 0; j < 50; j++)
-                {
-                    for (int k = 0; k < 50; k++)
-                    {
-                        Console.WriteLine("i) " + i + " j) " + j + " k) " + k);
-                        //vedo i, j e k
-                    }
-                    //vedo i e j
-                }
-                //vedo i
-            }
+
         }
+        //static void Main(string[] args)
+        //{
+        //    for (int i = 0; i < 50; i++)
+        //    {
+        //        for (int j = 0; j < 50; j++)
+        //        {
+        //            for (int k = 0; k < 50; k++)
+        //            {
+        //                Console.WriteLine("i) " + i + " j) " + j + " k) " + k);
+        //                //vedo i, j e k
+        //            }
+        //            //vedo i e j
+        //        }
+        //        //vedo i
+        //    }
+        //}
 
         //static void Main(string[] args)
         //{
