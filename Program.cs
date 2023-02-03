@@ -4,6 +4,7 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        //aggiornamento alle 20.00
         /*
          creare due funzioni con queste caratteristiche:
             1)- accetti in ingresso una stringa e un numero intero
