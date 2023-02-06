@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace ConsoleApplicationsTDPC14
 {
@@ -16,6 +18,41 @@ namespace ConsoleApplicationsTDPC14
             - per 3 volte chiedere all'utente un numero
             - stampare su schermo quanti e quali numeri si sono indovinati
          */
+        static void Main(string[] args)
+        {
+            Console.WriteLine("inserisci la dimensione dell'array");
+            int dimensione = int.Parse(Console.ReadLine());
+            int[] numeri = new int[dimensione];
+
+            Console.WriteLine("inserisci il numero minore del range");
+            int numeroMinoreRange = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("inserisci il numero maggiore del range");
+            int numeroMaggioreRange = int.Parse(Console.ReadLine());
+
+            Random r = new Random();
+            for (int i = 0; i < dimensione; i++)
+                numeri[i] = r.Next(numeroMinoreRange, numeroMaggioreRange);
+
+            for (int i = 0; i < 3; i++)
+            {
+                object[] result = GetNumero(numeri);
+                if (Convert.ToBoolean(result[0]) == true)
+                    Console.WriteLine("hai indovinato il numero " + result[1]);
+            }
+        }
+        static object[] GetNumero(int[] numeri)
+        {
+            Console.WriteLine("indovina un numero");
+            int numero = int.Parse(Console.ReadLine());
+            bool found = numeri.Contains(numero);
+            object[] objects = new object[2];
+            objects[0] = found;
+            objects[1] = numero;
+            //Tuple<bool, int> values = new Tuple<bool, int>(found, numero);
+            return objects;
+        }
+
         /*
          creare 3 funzioni:
             1)- chiede all'utente i suoi dati anagrafici e il suo
@@ -23,6 +60,30 @@ namespace ConsoleApplicationsTDPC14
             2)- stampa su schermo i dati anagrafici dell'utente
             3)- stampa su schermo l'animale preferito dell'utente
          */
+        //static void Main(string[] args)
+        //{
+        //    string dati = GetDati();
+        //    string animalePreferito = GetAnimalePreferito();
+        //    Stampa(dati, animalePreferito);
+        //}
+        //static string GetDati()
+        //{
+        //    Console.WriteLine("inserisci i tuoi dati anagrafici");
+        //    string dati = Console.ReadLine();
+        //    return dati;
+        //}
+        //static string GetAnimalePreferito()
+        //{
+        //    Console.WriteLine("inserisci il tuo animale preferito");
+        //    string animalePreferito = Console.ReadLine();
+        //    return animalePreferito;
+        //}
+        //static void Stampa(string dati, string animalePreferito)
+        //{
+        //    Console.WriteLine(dati);
+        //    Console.WriteLine(animalePreferito);
+        //}
+
         /*
          - creare un array di dimensione a scelta dell'utente
          - popolare completamente l'array di numeri casuali
@@ -30,11 +91,48 @@ namespace ConsoleApplicationsTDPC14
         dell'array
          - stampare su schermo il numero maggiore tra quelli generati
          */
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("inserisci la dimensione dell'array");
+        //    int dimensione = int.Parse(Console.ReadLine());
+        //    int[] numeri = new int[dimensione];
+
+        //    Random random = new Random();
+        //    for (int i = 0; i < dimensione; i++)
+        //        numeri[i] = random.Next(0, 20);
+
+        //    PrintNumbers(numeri);
+
+        //    Console.WriteLine("numero maggiore: " + numeri.Max());
+        //}
+        //static void PrintNumbers(int[] nums)
+        //{
+        //    for (int i = 0; i < nums.Length; i++)
+        //        Console.WriteLine(i + ") " + nums[i]);
+        //}
+
         /*
          - chiedere all'utente due stringhe
          - stampare su schermo la concatenazione delle due stringhe
          - stampare su schermo le due stringhe al contrario
          */
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("inserisci la prima stringa");
+        //    string input1 = Console.ReadLine();
+        //    Console.WriteLine("inserisci la seconda stringa");
+        //    string input2 = Console.ReadLine();
+        //    Console.WriteLine(input1 + input2);
+
+        //    var charsInput1 = input1.Reverse();
+        //    for (int i = 0; i < charsInput1.Count(); i++)
+        //        Console.Write(charsInput1.ElementAt(i));
+
+        //    Console.WriteLine();
+        //    var charsInput2 = input2.Reverse();
+        //    for (int i = 0; i < charsInput2.Count(); i++)
+        //        Console.Write(charsInput2.ElementAt(i));
+        //}
 
 
         /*
