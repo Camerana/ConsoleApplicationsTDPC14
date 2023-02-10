@@ -6,6 +6,20 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        //aggiornamento alle 7.40
+        /*
+         - creare un array di stringhe arbitrarie
+         - tramite un ciclo popolare una lista di stringhe
+         con tutti gli elementi contenuti nell'array
+         - tramite un secondo ciclo stampare il contenuto
+         sia dell'array che della lista
+         */
+        /*
+         - creare un array di numeri casuali
+         - creare un secondo array di numeri casuali
+         - creare una lista di numeri il cui contenuto sia
+         l'unione degli elementi dei due array
+         */
         static void Main(string[] args)
         {
             int[] numbersArray = new int[5];
