@@ -6,7 +6,14 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        //aggiornamento alle 20.45
+        //esempio di tryparse
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("inserisci un numero");
+        //    string inputString = Console.ReadLine();
+        //    int input = 0;
+        //    bool parseWasSuccessful = int.TryParse(inputString, out input);
+        //}
         /*
          - chiedere all'utente un numero qualsiasi
          - ciclare sul numero dell'utente e ad ogni iterazione
@@ -15,6 +22,30 @@ namespace ConsoleApplicationsTDPC14
          - aggiungere in una lista un numero di elementi
          presi dall'array pari al secondo numero indicato dall'utente
          */
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("inserisci un numero");
+        //    string dimension = Console.ReadLine();
+
+        //    string[] stringsArray = new string[int.Parse(dimension)];
+        //    for (int i = 0; i < stringsArray.Length; i++)
+        //        stringsArray[i] = "stringa" + i;
+
+        //    Console.WriteLine("inserisci un secondo numero");
+        //    int elementsNumber = int.Parse(Console.ReadLine());
+
+        //    if (elementsNumber <= stringsArray.Length)
+        //    {
+        //        List<string> stringsList = new List<string>();
+        //        for (int i = 0; i < elementsNumber; i++)
+        //        {
+        //            stringsList.Add(stringsArray[i]);
+        //        }
+        //    }
+        //    else
+        //        Console.WriteLine("l'array non contiene " + elementsNumber + " elementi");
+        //}
+
         /*
          - tramite una funzione restituire un array di stringhe qualsiasi
          - tramite una seconda funzione restituire una lista di numeri decimali
@@ -22,10 +53,31 @@ namespace ConsoleApplicationsTDPC14
          - chiamare entrambe le funzioni nel Main e stampare gli elementi
          delle collection restituite
          */
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
+        //    string[] strings = GetStrings();
+        //    List<double> numbers = GetNumbers();
 
-        }
+        //    Console.WriteLine(numbers);
+
+        //    for (int i = 0; i < strings.Length; i++)
+        //        Console.WriteLine(strings[i]);
+        //    for (int i = 0; i < numbers.Count; i++)
+        //        Console.WriteLine(numbers[i]);
+        //}
+        //static string[] GetStrings()
+        //{
+        //    return new string[] {
+        //        "stringa1", "stringa2", "stringa3"
+        //    };
+        //}
+        //static List<double> GetNumbers()
+        //{
+        //    return new List<double>()
+        //    {
+        //        10.5, 12, 89, 51.8
+        //    };
+        //}
 
         /*
          - creare un array di stringhe arbitrarie
