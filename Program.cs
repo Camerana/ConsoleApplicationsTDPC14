@@ -6,6 +6,30 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         - creare una funzione che in ingresso accetti un numero intero
+        e restituisca una lista di stringhe con un numero di elementi 
+        pari al numero in ingresso
+         - chiedere all'utente 3 numeri
+         - per ciascun numero chiamare la funzione descritta sopra
+         - creare una lista di stringhe che contenga gli elementi
+         delle altre liste create
+         */
+        /*
+         - creare una funzione che accetti due array di tipo a scelta
+         e restituisca una lista che contenga gli elementi di entrambi
+         gli array
+         - chiamare da Main la funzione e stampare su schermo il contenuto
+         della lista ottenuta
+         */
+        /*
+         - creare una funzione che accetti in ingresso una lista di stringhe
+         e restituisca un array di stringhe contenente le stringhe della lista
+         parsificabili in numero
+         */
+        static void Main(string[] args)
+        {
+        }
         //esempio di tryparse
         //static void Main(string[] args)
         //{
