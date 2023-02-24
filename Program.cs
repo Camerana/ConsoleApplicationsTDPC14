@@ -5,6 +5,7 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        //aggiornamento alle 7.50
         /*
          - chiedere all'utente 3 stringhe
          - inserire le stringhe in una lista
