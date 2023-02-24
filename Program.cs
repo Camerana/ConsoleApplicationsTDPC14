@@ -6,7 +6,26 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        //fine intervallo alle 8.20
+        //aggiornamento alle 9.10
+        /*
+         - chiedere all'utente un numero
+         - tramite un ciclo stampare tutti i numeri da 0 fino al numero
+            scelto dall'utente
+        */
+        /*
+         - chiedere all'utente un numero
+         - generare un numero di stringhe pari al numero
+            scelto dall'utente
+         - tramite un foreach stampare le stringhe al contrario
+         */
+        /*
+         - chiedere all'utente una stringa
+         - stampare ciascun carattere della stringa
+            separandoli con uno spazio vuoto
+            - es:
+                "stringa"
+                "s t r i n g a"
+         */
         static void Main(string[] args)
         {
 
