@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        //aggiornamento alle 7.50
+        //fine intervallo alle 8.20
+        static void Main(string[] args)
+        {
+
+        }
         /*
          - chiedere all'utente 3 stringhe
          - inserire le stringhe in una lista
@@ -13,6 +18,23 @@ namespace ConsoleApplicationsTDPC14
          - tramite la funzione, con un foreach, stampare
             il contenuto della lista
          */
+        //static void Main(string[] args)
+        //{
+        //    List<string> strings = new List<string>();
+        //    Console.WriteLine("Inserisci la stringa 1");
+        //    strings.Add(Console.ReadLine());
+        //    Console.WriteLine("Inserisci la stringa 2");
+        //    strings.Add(Console.ReadLine());
+        //    Console.WriteLine("Inserisci la stringa 3");
+        //    strings.Add(Console.ReadLine());
+
+        //    PrintStringsList(strings);
+        //}
+        //static void PrintStringsList(List<string> strings)
+        //{
+        //    foreach (string s in strings)
+        //        Console.WriteLine(s);
+        //}
         /*
          - chiedere all'utente un booleano
          - se il booleano è true, generare 4 numeri casuali,
@@ -22,6 +44,34 @@ namespace ConsoleApplicationsTDPC14
             inserirle in una lista e stampare il contenuto
             della lista tramite un for
          */
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Inserisci un booleano");
+        //    bool input = bool.Parse(Console.ReadLine());
+
+        //    //if(input == true)
+        //    if (input)
+        //    {
+        //        Random random = new Random();
+        //        int[] numbers = new int[4];
+        //        for (int i = 0; i < 4; i++)
+        //            numbers[i] = random.Next();
+
+        //        foreach (int number in numbers)
+        //            Console.WriteLine(number);
+        //    }
+        //    else
+        //    {
+        //        List<string> strings = new List<string>();
+        //        Console.WriteLine("Inserisci la prima stringa");
+        //        strings.Add(Console.ReadLine());
+        //        Console.WriteLine("Inserisci la seconda stringa");
+        //        strings.Add(Console.ReadLine());
+
+        //        for (int i = 0; i < strings.Count; i++)
+        //            Console.WriteLine(strings[i]);
+        //    }
+        //}
         /*
          - creare un array di contenuto arbitrario
          - creare una lista di contenuto arbitrario
@@ -30,42 +80,55 @@ namespace ConsoleApplicationsTDPC14
          - tramite un foreach stampare il contenuto della seconda
             lista
          */
-        static void Main(string[] args)
-        {
-            int[] numbers = new int[] {
-                10,20,30
-            };
-            List<string> strings = new List<string>() {
-                "stringa 1", "stringa 2", "stringa 3"
-            };
-            for (int i = 0; i < numbers.Length; i++)
-                Console.WriteLine(numbers[i]);
-            for (int i = 0; i < strings.Count; i++)
-                Console.WriteLine(strings[i]);
-            foreach (int n in numbers)
-                Console.WriteLine(n);
-            foreach (string s in strings)
-                Console.WriteLine(s);
+        //static void Main(string[] args)
+        //{
+        //    string[] stringsArray = new string[] {
+        //        "array string 1", "array string 2", "array string 3", "array string 4"
+        //    };
+        //    List<string> stringsList = new List<string>() {
+        //        "list string 1", "list string 2", "list string 3"
+        //    };
+        //    List<string> unionList = stringsArray.Concat(stringsList).ToList();
+        //    foreach (string s in unionList)
+        //        Console.WriteLine(s);
+        //}
+
+        //static void Main(string[] args)
+        //{
+        //    int[] numbers = new int[] {
+        //        10,20,30
+        //    };
+        //    List<string> strings = new List<string>() {
+        //        "stringa 1", "stringa 2", "stringa 3"
+        //    };
+        //    for (int i = 0; i < numbers.Length; i++)
+        //        Console.WriteLine(numbers[i]);
+        //    for (int i = 0; i < strings.Count; i++)
+        //        Console.WriteLine(strings[i]);
+        //    foreach (int n in numbers)
+        //        Console.WriteLine(n);
+        //    foreach (string s in strings)
+        //        Console.WriteLine(s);
 
 
-            List<int> numbersList = new List<int>() {
-                10,20,30
-            };
+        //    List<int> numbersList = new List<int>() {
+        //        10,20,30
+        //    };
 
-            PrintNumbersList(numbers);
+        //    PrintNumbersList(numbers);
 
-            PrintNumbersList(numbersList);
-        }
+        //    PrintNumbersList(numbersList);
+        //}
 
-        static void PrintNumbersList(int[] numbers)
-        {
-            for (int i = 0; i < numbers.Length; i++)
-                Console.WriteLine(numbers[i]);
-        }
-        static void PrintNumbersList(List<int> numbers)
-        {
-            foreach (int numero in numbers)
-                Console.WriteLine(numero);
-        }
+        //static void PrintNumbersList(int[] numbers)
+        //{
+        //    for (int i = 0; i < numbers.Length; i++)
+        //        Console.WriteLine(numbers[i]);
+        //}
+        //static void PrintNumbersList(List<int> numbers)
+        //{
+        //    foreach (int numero in numbers)
+        //        Console.WriteLine(numero);
+        //}
     }
 }
