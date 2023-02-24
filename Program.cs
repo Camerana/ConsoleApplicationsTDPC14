@@ -1,23 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        //aggiornamento alle 9.10
         /*
          - chiedere all'utente un numero
          - tramite un ciclo stampare tutti i numeri da 0 fino al numero
             scelto dall'utente
         */
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Inserisci un numero");
+        //    int input = int.Parse(Console.ReadLine());
+
+        //    if (input >= 0)
+        //    {
+        //        for (int i = 0; i < input; i++)
+        //            Console.WriteLine(i);
+        //    }
+        //    else
+        //    {
+        //        for (int i = 0; i > input; i--)
+        //            Console.WriteLine(i);
+        //    }
+        //}
         /*
          - chiedere all'utente un numero
          - generare un numero di stringhe pari al numero
             scelto dall'utente
          - tramite un foreach stampare le stringhe al contrario
          */
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Inserisci un numero");
+        //    int input = int.Parse(Console.ReadLine());
+        //    List<string> strings = new List<string>();
+        //    for (int i = 0; i < input; i++)
+        //        strings.Add("stringa " + i);
+        //    foreach (string s in strings)
+        //        Console.WriteLine(string.Join("", s.Reverse()));
+        //}
         /*
          - chiedere all'utente una stringa
          - stampare ciascun carattere della stringa
@@ -26,10 +52,14 @@ namespace ConsoleApplicationsTDPC14
                 "stringa"
                 "s t r i n g a"
          */
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine("Inserisci una stringa");
+        //    string input = Console.ReadLine();
 
-        }
+        //    var result = string.Join(" ", input.ToCharArray());
+        //    Console.WriteLine(result);
+        //}
         /*
          - chiedere all'utente 3 stringhe
          - inserire le stringhe in una lista
