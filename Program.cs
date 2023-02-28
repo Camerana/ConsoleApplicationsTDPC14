@@ -14,7 +14,21 @@ namespace ConsoleApplicationsTDPC14
          - tramite un ciclo stampare su schermo
          le properties dei 10 oggetti
          */
-
+        static void Main(string[] args)
+        {
+            List<Gioco> giochi = new List<Gioco>();
+            for (int i = 0; i < 10; i++)
+            {
+                Gioco g = new Gioco();
+                g.Nome = "g " + i;
+                g.Anno = 2000 + i;
+                giochi.Add(g);
+            }
+            foreach (Gioco gioco in giochi)
+                Console.WriteLine(gioco.Nome + " " + gioco.Anno);
+            for (int i = 0; i < giochi.Count; i++)
+                Console.WriteLine(giochi[i].Nome + " " + giochi[i].Anno);
+        }
 
         /*
          - creare 100 oggetti che rappresentino
