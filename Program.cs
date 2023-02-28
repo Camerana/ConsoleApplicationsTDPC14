@@ -6,6 +6,19 @@ namespace ConsoleApplicationsTDPC14
     internal class Program
     {
         /*
+         - chiedere all'utente i suoi dati anagrafici
+        (es: nome, cognome, età...)
+         - creare una classe che abbia le properties
+        chieste all'utente
+         - istanziare un oggetto con i dati chiesti
+        all'utente
+         - stampare su schermo le properties
+        dell'oggetto
+         */
+        static void Main(string[] args)
+        {
+        }
+        /*
          - creare una classe Gioco con properties:
             - public string Nome
             - public int Anno
@@ -14,21 +27,21 @@ namespace ConsoleApplicationsTDPC14
          - tramite un ciclo stampare su schermo
          le properties dei 10 oggetti
          */
-        static void Main(string[] args)
-        {
-            List<Gioco> giochi = new List<Gioco>();
-            for (int i = 0; i < 10; i++)
-            {
-                Gioco g = new Gioco();
-                g.Nome = "g " + i;
-                g.Anno = 2000 + i;
-                giochi.Add(g);
-            }
-            foreach (Gioco gioco in giochi)
-                Console.WriteLine(gioco.Nome + " " + gioco.Anno);
-            for (int i = 0; i < giochi.Count; i++)
-                Console.WriteLine(giochi[i].Nome + " " + giochi[i].Anno);
-        }
+        //static void Main(string[] args)
+        //{
+        //    List<Gioco> giochi = new List<Gioco>();
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        Gioco g = new Gioco();
+        //        g.Nome = "g " + i;
+        //        g.Anno = 2000 + i;
+        //        giochi.Add(g);
+        //    }
+        //    foreach (Gioco gioco in giochi)
+        //        Console.WriteLine(gioco.Nome + " " + gioco.Anno);
+        //    for (int i = 0; i < giochi.Count; i++)
+        //        Console.WriteLine(giochi[i].Nome + " " + giochi[i].Anno);
+        //}
 
         /*
          - creare 100 oggetti che rappresentino
