@@ -17,7 +17,23 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
+            Utente u = new Utente();
+
+            Console.WriteLine("inserisci il tuo nome");
+            u.Nome = Console.ReadLine();
+            Console.WriteLine("inserisci il tuo cognome");
+            u.Cognome = Console.ReadLine();
+            Console.WriteLine("inserisci la tua età");
+            u.Eta = int.Parse(Console.ReadLine());
+            Console.WriteLine("inserisci il tuo indirizzo");
+            u.Indirizzo = Console.ReadLine();
+
+            Console.WriteLine(u.Nome);
+            Console.WriteLine(u.Cognome);
+            Console.WriteLine(u.Eta);
+            Console.WriteLine(u.Indirizzo);
         }
+
         /*
          - creare una classe Gioco con properties:
             - public string Nome
