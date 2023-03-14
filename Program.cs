@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApplicationsTDPC14
 {
@@ -14,6 +15,20 @@ namespace ConsoleApplicationsTDPC14
          - attribuire valori qualsiasi a ciascun animale, ma
             fare in modo che il colore possa essere solo "bianco" o "nero"
          */
+        static void Main(string[] args)
+        {
+            Random rnd = new Random();
+            int number = rnd.Next(1, 5);
+            for (int i = 0; i < number; i++)
+            {
+                Animale animale = new Animale();
+                animale.Eta = "10";
+                animale.Razza = "Elefante";
+                animale.Colore = "nero";
+
+                Console.WriteLine(animale.Eta + " " + animale.Razza + " " + animale.Colore);
+            }
+        }
         /*
          - creare una classe Prodotto con le seguenti properties:
             - Nome
@@ -25,17 +40,17 @@ namespace ConsoleApplicationsTDPC14
          - stampare su schermo i valori delle properties dell'oggetto
          istanziato
          */
-        static void Main(string[] args)
-        {
-            Prodotto p = new Prodotto();
-            Console.WriteLine("Inserisci il nome");
-            p.Nome = Console.ReadLine();
-            Console.WriteLine("Inserisci il costo");
-            p.Costo = Console.ReadLine();
+        //static void Main(string[] args)
+        //{
+        //    Prodotto p = new Prodotto();
+        //    Console.WriteLine("Inserisci il nome");
+        //    p.Nome = Console.ReadLine();
+        //    Console.WriteLine("Inserisci il costo");
+        //    p.Costo = Console.ReadLine();
 
-            Console.WriteLine(p.Nome);
-            Console.WriteLine(p.Costo);
-        }
+        //    Console.WriteLine(p.Nome);
+        //    Console.WriteLine(p.Costo);
+        //}
         //static void Main(string[] args)
         //{
         //    User u = new User();
