@@ -12,7 +12,7 @@ namespace ConsoleApplicationsTDPC14
          - generare un numero casuale tra 1 e 5
          - creare n oggetti di tipo Animale equivalenti al numero estratto
          - attribuire valori qualsiasi a ciascun animale, ma
-            fare in modo che il colore possa essere solo bianco o nero
+            fare in modo che il colore possa essere solo "bianco" o "nero"
          */
         /*
          - creare una classe Prodotto con le seguenti properties:
