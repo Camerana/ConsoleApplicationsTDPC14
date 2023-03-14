@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace ConsoleApplicationsTDPC14
 {
@@ -6,7 +7,9 @@ namespace ConsoleApplicationsTDPC14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            User u = new User();
+            u.Name = "Test";
+            Console.WriteLine(u.Name);
         }
     }
 }
