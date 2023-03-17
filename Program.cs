@@ -18,7 +18,19 @@ namespace ConsoleApplicationsTDPC14
             product.Name = "Acqua";
             product.Cost = "1.5";
             product.PrintData();
+
+            Product product1 = new Product();
+            product1.Name = "Biscotti";
+            product1.Cost = "2";
+            product1.PrintData();
+
+            Product product2 = new Product();
+            product2.Name = "Panino";
+            product2.Cost = "3";
+            product2.PrintData();
             //Product.PrintData();
+            //product.ObjectsCount = 10;
+            //Product.ObjectsCount = 10;
         }
     }
 }
