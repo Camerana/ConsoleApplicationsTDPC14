@@ -5,10 +5,33 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         aggiornamento: 21.30
+         -creare:
+            - una classe Prodotto con:
+                - properties:
+                    - nome
+                    - costo
+            - una classe Distributore con:
+                - properties:
+                    - lista di oggetti di tipo Prodotto
+                - metodi:
+                    - Stampa, che stampa su schermo l'elenco
+                    dei prodotti nella lista
+        - istanziare un oggetto di tipo Distributore 
+        - istanziare 3 oggetti di tipo Prodotto e valorizzarne
+        le properties
+        - aggiungere i 3 oggetti alla lista di prodotti di Distrubutore
+        - stampare su schermo gli oggetti tramite il metodo Stampa
+        di Distrubutore
+        */
         static void Main(string[] args)
         {
-            Auto auto = new Auto();
         }
+        //static void Main(string[] args)
+        //{
+        //    Auto auto = new Auto();
+        //}
         /*creare una classe Animale con
             - properties:
                 - Razza
