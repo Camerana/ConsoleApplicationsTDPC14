@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        static void Main(string[] args)
+        {
+            Auto auto = new Auto();
+        }
         /*creare una classe Animale con
             - properties:
                 - Razza
@@ -15,27 +20,26 @@ namespace ConsoleApplicationsTDPC14
             popolarne le properties e invocarne
             i metodi
          */
-        static void Main(string[] args)
-        {
-            Animale a1 = new Animale();
-            a1.Razza = "Coniglio";
-            a1.Colore = "Bianco";
-            a1.Mangia();
-            a1.FaiIlVerso();
+        //static void Main(string[] args)
+        //{
+        //    Animale a1 = new Animale();
+        //    a1.Razza = "Coniglio";
+        //    a1.Colore = "Bianco";
+        //    a1.Mangia();
+        //    a1.FaiIlVerso();
 
-            Animale a2 = new Animale();
-            a2.Razza = "Gatto";
-            a2.Colore = "Arancione";
-            a2.Mangia();
-            a2.FaiIlVerso();
+        //    Animale a2 = new Animale();
+        //    a2.Razza = "Gatto";
+        //    a2.Colore = "Arancione";
+        //    a2.Mangia();
+        //    a2.FaiIlVerso();
 
-            Animale a3 = new Animale();
-            a3.Razza = "Elefante";
-            a3.Colore = "Grigio";
-            a3.Mangia();
-            a3.FaiIlVerso();
-
-        }
+        //    Animale a3 = new Animale();
+        //    a3.Razza = "Elefante";
+        //    a3.Colore = "Grigio";
+        //    a3.Mangia();
+        //    a3.FaiIlVerso();
+        //}
         /*
          - creare una classe Veicolo con:
             - properties:
