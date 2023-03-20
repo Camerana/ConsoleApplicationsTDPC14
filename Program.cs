@@ -6,7 +6,10 @@ namespace ConsoleApplicationsTDPC14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Prodotto p = new Prodotto();
+            p.Nome = "Biscotti";
+            p.Costo = 15;
+            Console.WriteLine(p.Nome + ": " + p.Costo);
         }
     }
 }
