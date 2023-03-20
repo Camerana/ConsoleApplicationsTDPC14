@@ -6,7 +6,6 @@ namespace ConsoleApplicationsTDPC14
     internal class Program
     {
         /*
-         aggiornamento: 21.30
          -creare:
             - una classe Prodotto con:
                 - properties:
@@ -27,6 +26,22 @@ namespace ConsoleApplicationsTDPC14
         */
         static void Main(string[] args)
         {
+            Distributore d = new Distributore();
+
+            Prodotto p1 = new Prodotto();
+            p1.Nome = "Biscotti";
+            p1.Costo = "2 euro";
+            Prodotto p2 = new Prodotto();
+            p2.Nome = "Bibita";
+            p2.Costo = "1 euro";
+            Prodotto p3 = new Prodotto();
+            p3.Nome = "Acqua";
+            p3.Costo = "1.5 euro";
+            d.Prodotti.Add(p1);
+            d.Prodotti.Add(p2);
+            d.Prodotti.Add(p3);
+
+            d.Stampa();
         }
         //static void Main(string[] args)
         //{
