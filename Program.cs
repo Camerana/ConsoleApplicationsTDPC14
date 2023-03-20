@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ConsoleApplicationsTDPC14
 {
@@ -25,11 +26,38 @@ namespace ConsoleApplicationsTDPC14
             - estrarre un biglietto dalla lista e stampare 
             su schermo i dati del biglietto estratto
             - comunicare all'utente se ha vinto
-            - 
          */
         static void Main(string[] args)
         {
+            List<Biglietto> bigliettiEstraibili = new List<Biglietto>();
+            for (int i = 0; i < 200; i++)
+            {
+                Biglietto b = new Biglietto();
+                b.LuogoDiAcquisto = "Città " + i;
+                b.Seriale = i;
+                bigliettiEstraibili.Add(b);
+            }
+            Giocatore giocatore = new Giocatore();
+            Console.WriteLine("Quanti biglietti vuoi comprare ?");
+            int input = int.Parse(Console.ReadLine());
 
+            Random r = new Random();
+            for (int i = 0; i < input; i++)
+            {
+                int bigliettoRandom = r.Next(0, bigliettiEstraibili.Count);
+                Biglietto bigliettoComprato = bigliettiEstraibili[bigliettoRandom];
+                giocatore.Biglietti.Add(bigliettoComprato);
+            }
+            int indiceBigliettoVincitore = r.Next(0, bigliettiEstraibili.Count);
+            Biglietto bigliettoVincitore = bigliettiEstraibili[indiceBigliettoVincitore];
+
+            Console.WriteLine(bigliettoVincitore.LuogoDiAcquisto + ": " + bigliettoVincitore.Seriale);
+
+            foreach (Biglietto biglietto in giocatore.Biglietti)
+            {
+                if (biglietto.Seriale == bigliettoVincitore.Seriale)
+                    Console.WriteLine("Hai vinto !");
+            }
         }
         //static void Main(string[] args)
         //{
