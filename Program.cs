@@ -23,12 +23,12 @@ namespace ConsoleApplicationsTDPC14
             - creare la classe Dalmata : Cane
                 - properties:
                     - NumeroMacchie
-            - creare un oggetto di tipo Gatto e un oggetto
-            di tipo Cane
+            - creare un oggetto di tipo Gatto, un oggetto
+            di tipo Bassotto e un oggetto di tipo Dalmata
             - valorizzarne le properties
             - a seconda dell'oggetto, eseguirne tutti i metodi
             disponibili nell'oggetto (FaiIlVerso, FaiLeFusa, RiportaLaPalla)
-            - stampare le properties dei due oggetti
+            - stampare le properties dei tre oggetti
          */
         static void Main(string[] args)
         {
