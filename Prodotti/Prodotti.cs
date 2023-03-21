@@ -18,6 +18,7 @@ namespace ConsoleApplicationsTDPC14.Prodotti
     {
         public override void Stampa()
         {
+            base.Stampa();
         }
     }
     public class Patatine : Prodotto
@@ -33,6 +34,7 @@ namespace ConsoleApplicationsTDPC14.Prodotti
     {
         public override void Stampa()
         {
+            base.Stampa();
         }
     }
     public class Pringles : Patatine
