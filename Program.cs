@@ -5,6 +5,31 @@ namespace ConsoleApplicationsTDPC14
 {
     public class Program
     {
+        /*
+            - creare la classe Animale
+                - properties:
+                    - Nome
+                - metodi:
+                    - FaiIlVerso
+            - creare la classe Gatto : Animale
+                - metodi:
+                    - FaiLeFusa
+            - creare la classe Cane : Animale
+                - metodi:
+                    - RiportaLaPalla
+            - creare la classe Bassotto : Cane
+                - properties:
+                    - Altezza
+            - creare la classe Dalmata : Cane
+                - properties:
+                    - NumeroMacchie
+            - creare un oggetto di tipo Gatto e un oggetto
+            di tipo Cane
+            - valorizzarne le properties
+            - a seconda dell'oggetto, eseguirne tutti i metodi
+            disponibili nell'oggetto (FaiIlVerso, FaiLeFusa, RiportaLaPalla)
+            - stampare le properties dei due oggetti
+         */
         static void Main(string[] args)
         {
             Prodotto prodotto = new Prodotto();
