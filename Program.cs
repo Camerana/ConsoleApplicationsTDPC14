@@ -7,24 +7,48 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         Creare una classe madre arbitraria con:
+            - una property public
+            - una property protected
+            - una property private
+            - un metodo public
+            - un metodo protected
+            - un metodo private
+         Creare una classe figlia arbitraria che eredita dalla classe madre con:
+            - una property private
+            - un metodo private
+         Creare una classe nipote arbitraria che eredita dalla classe figlia con:
+            - una property public
+         Istanziare:
+            - un oggetto di tipo classe madre
+            - un oggetto di tipo classe figlia
+            - un oggetto di tipo classe nipote
+         Valorizzare le properties degli oggetti
+         Eseguirne i metodi
+         */
         static void Main(string[] args)
         {
-            ClasseMadre cm = new ClasseMadre();
-            //cm.Nome_Public = "Nome public";
-            cm.Stampa();
 
-            ClasseFiglia0 cf0 = new ClasseFiglia0();
-            //cf0.Nome_Public = "Nome public";
-            cf0.Stampa();
-
-            ClasseFiglia1 cf1 = new ClasseFiglia1();
-            //cf1.Nome_Public = "Nome public";
-            cf1.Stampa();
-
-            ClasseNipote0 cn0 = new ClasseNipote0();
-            //cn0.Nome_Public = "Nome public";
-            cn0.Stampa();
         }
+        //static void Main(string[] args)
+        //{
+        //    ClasseMadre cm = new ClasseMadre();
+        //    //cm.Nome_Public = "Nome public";
+        //    cm.Stampa();
+
+        //    ClasseFiglia0 cf0 = new ClasseFiglia0();
+        //    //cf0.Nome_Public = "Nome public";
+        //    cf0.Stampa();
+
+        //    ClasseFiglia1 cf1 = new ClasseFiglia1();
+        //    //cf1.Nome_Public = "Nome public";
+        //    cf1.Stampa();
+
+        //    ClasseNipote0 cn0 = new ClasseNipote0();
+        //    //cn0.Nome_Public = "Nome public";
+        //    cn0.Stampa();
+        //}
         /* aggiornamento alle 8.15
          creare una classe EssereVivente con
             properties:
