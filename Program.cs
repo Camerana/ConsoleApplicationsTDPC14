@@ -7,7 +7,7 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        /*
+        /*aggiornamento alle 21.15
          Creare una classe madre arbitraria con:
             - una property public
             - una property protected
