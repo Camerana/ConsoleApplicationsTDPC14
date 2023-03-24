@@ -1,4 +1,5 @@
-﻿using ConsoleApplicationsTDPC14.Prodotti;
+﻿using ConsoleApplicationsTDPC14.Animali;
+using ConsoleApplicationsTDPC14.Prodotti;
 using System;
 
 namespace ConsoleApplicationsTDPC14
@@ -32,34 +33,60 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
-            Prodotto prodotto = new Prodotto();
-            prodotto.Nome = "Prodotto";
-            prodotto.Costo = "12";
-            prodotto.Stampa();
+            Gatto gatto = new Gatto();
+            gatto.Nome = "Pallino";
+            gatto.FaiIlVerso();
+            gatto.FaiLeFusa();
+            gatto.StampaDati();
 
-            Biscotto biscotto = new Biscotto();
-            biscotto.Nome = "Biscotto";
-            biscotto.Costo = "3";
-            biscotto.Stampa();
+            Console.WriteLine();
 
-            Patatine patatine = new Patatine();
-            patatine.Nome = "Patatine";
-            patatine.Costo = "4";
-            patatine.Salinita = 2;
-            patatine.Stampa();
+            Bassotto bassotto = new Bassotto();
+            bassotto.Nome = "Ringhio";
+            bassotto.Altezza = 35;
+            bassotto.FaiIlVerso();
+            bassotto.RiportaLaPalla();
+            bassotto.StampaDati();
 
-            SanCarlo sanCarlo = new SanCarlo();
-            sanCarlo.Nome = "SanCarlo";
-            sanCarlo.Costo = "2";
-            sanCarlo.Salinita = 1;
-            sanCarlo.Stampa();
+            Console.WriteLine();
 
-            Pringles pringles = new Pringles();
-            pringles.Nome = "Pringles";
-            pringles.Costo = "2";
-            pringles.Salinita = 2;
-            pringles.AltezzaCilindro = 4;
-            pringles.Stampa();
+            Dalmata dalmata = new Dalmata();
+            dalmata.Nome = "Pongo";
+            dalmata.NumeroMacchie = 256;
+            dalmata.FaiIlVerso();
+            dalmata.RiportaLaPalla();
+            dalmata.StampaDati();
         }
+        //static void Main(string[] args)
+        //{
+        //    Prodotto prodotto = new Prodotto();
+        //    prodotto.Nome = "Prodotto";
+        //    prodotto.Costo = "12";
+        //    prodotto.Stampa();
+
+        //    Biscotto biscotto = new Biscotto();
+        //    biscotto.Nome = "Biscotto";
+        //    biscotto.Costo = "3";
+        //    biscotto.Stampa();
+
+        //    Patatine patatine = new Patatine();
+        //    patatine.Nome = "Patatine";
+        //    patatine.Costo = "4";
+        //    patatine.Salinita = 2;
+        //    patatine.Stampa();
+
+        //    SanCarlo sanCarlo = new SanCarlo();
+        //    sanCarlo.Nome = "SanCarlo";
+        //    sanCarlo.Costo = "2";
+        //    sanCarlo.Salinita = 1;
+        //    sanCarlo.Stampa();
+
+        //    Pringles pringles = new Pringles();
+        //    pringles.Nome = "Pringles";
+        //    pringles.Costo = "2";
+        //    pringles.Salinita = 2;
+        //    pringles.AltezzaCilindro = 4;
+        //    pringles.Stampa();
+        //}
     }
 }
