@@ -6,6 +6,7 @@ namespace ConsoleApplicationsTDPC14
     internal class Program
     {
         /*
+         * aggiornamento alle 7.50
          creare una classe Veicolo
          creare una classe Auto : Veicolo
          creare una classe Fiesta : Auto
