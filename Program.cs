@@ -1,4 +1,5 @@
-﻿using ConsoleApplicationsTDPC14.EsseriViventi;
+﻿using ConsoleApplicationsTDPC14.Classi;
+using ConsoleApplicationsTDPC14.EsseriViventi;
 using ConsoleApplicationsTDPC14.Visibilita;
 using System;
 using System.Net.NetworkInformation;
@@ -7,7 +8,7 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        /*aggiornamento alle 21.15
+        /*
          Creare una classe madre arbitraria con:
             - una property public
             - una property protected
@@ -29,7 +30,18 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
+            Madre m = new Madre();
+            m.PublicProperty_Madre = "public madre";
+            m.PublicMethod_Madre();
 
+            Figlia f = new Figlia();
+            f.PublicProperty_Madre = "public madre-figlia";
+            f.PublicMethod_Madre();
+
+            Nipote n = new Nipote();
+            n.PublicProperty_Madre = "public madre-nipote";
+            n.PublicProperty_Nipote = "public nipote";
+            n.PublicMethod_Madre();
         }
         //static void Main(string[] args)
         //{
