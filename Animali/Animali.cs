@@ -8,14 +8,14 @@ namespace ConsoleApplicationsTDPC14.Animali
     {
         public string Razza { get; set; }
         public abstract void FaiIlVerso();
-        public virtual void Metodo1()
-        {
-            Console.WriteLine("Metodo1");
-        }
-        public void Metodo2()
-        {
-            Console.WriteLine("Metodo2");
-        }
+        //public virtual void Metodo1()
+        //{
+        //    Console.WriteLine("Metodo1");
+        //}
+        //public void Metodo2()
+        //{
+        //    Console.WriteLine("Metodo2");
+        //}
     }
     public abstract class Cane : Animale
     {
