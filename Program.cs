@@ -58,6 +58,16 @@ namespace ConsoleApplicationsTDPC14
             ducati.BrevettoSuono = "";
             ducati.Accendi();
             ducati.Impenna();
+
+            AccendiVeicolo(fiesta);
+            AccendiVeicolo(panda);
+            AccendiVeicolo(aprilia);
+            AccendiVeicolo(ducati);
+        }
+
+        public static void AccendiVeicolo(Veicolo veicolo)
+        {
+            veicolo.Accendi();
         }
         //static void Main(string[] args)
         //{
