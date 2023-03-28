@@ -1,4 +1,5 @@
 ﻿using ConsoleApplicationsTDPC14.Animali;
+using ConsoleApplicationsTDPC14.Libreria;
 using ConsoleApplicationsTDPC14.Veicoli;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,22 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
+            Libreria.Libreria libreria = new Libreria.Libreria();
+            Scaffale scaffale = new Scaffale();
 
+            Libro libro = new Libro();
+            libro.Nome = "ABC";
+            libro.Autore = "PincoPallo";
+            libro.NumeroPagine = 150;
+            scaffale.Prodotti.Add(libro);
+
+            DVD dvd = new DVD();
+            dvd.Nome = "CDE";
+            dvd.Autore = "Ciccio Benzina";
+            dvd.Durata = 120;
+            scaffale.Prodotti.Add(dvd);
+
+            libreria.Scaffali.Add(scaffale);
         }
         /*
          creare una classe Veicolo
