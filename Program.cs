@@ -1,6 +1,4 @@
 ﻿using ConsoleApplicationsTDPC14.Immergiti;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace ConsoleApplicationsTDPC14
@@ -9,6 +7,13 @@ namespace ConsoleApplicationsTDPC14
     {
         static void Main(string[] args)
         {
+            Bassotto bassotto = new Bassotto();
+            Labrador labrador = new Labrador();
+            UBoat uBoat = new UBoat();
+
+            Immersione(bassotto);
+            Immersione(labrador);
+            Immersione(uBoat);
 
         }
         static void Immersione(IImmergiti oggetto)
