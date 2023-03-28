@@ -1,11 +1,12 @@
 ﻿using ConsoleApplicationsTDPC14.Immergiti;
+using ConsoleApplicationsTDPC14.Mangia;
 using System.Collections.Generic;
 
 namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
-        /*aggiornamento alle 21.00
+        /*
          - creare un'interfaccia IMangia con metodo Mangia
          - creare una classe Persona che implementa IMangia
          - creare una classe Alfiere che implementa IMangia
@@ -17,7 +18,14 @@ namespace ConsoleApplicationsTDPC14
          */
         static void Main(string[] args)
         {
-
+            Persona persona = new Persona();
+            Alfiere alfiere = new Alfiere();
+            PrintMangia(persona);
+            PrintMangia(alfiere);
+        }
+        public static void PrintMangia(IMangia oggetto)
+        {
+            oggetto.Mangia();
         }
         //static void Main(string[] args)
         //{
