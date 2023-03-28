@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ConsoleApplicationsTDPC14.Immergiti;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ConsoleApplicationsTDPC14
 {
@@ -6,7 +9,11 @@ namespace ConsoleApplicationsTDPC14
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+        }
+        static void Immersione(IImmergiti oggetto)
+        {
+            oggetto.Immergiti();
         }
     }
 }
