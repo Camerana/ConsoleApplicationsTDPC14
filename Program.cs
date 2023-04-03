@@ -6,6 +6,10 @@ namespace ConsoleApplicationsTDPC14
     {
         /*
          Il distributore !!!
+            hints:
+                - gestione credito utente
+                    (es: banconote, tessera, erogazione resto..)
+                - gestione giacenza prodotti del distributore
         (o il tris.. !)
          */
         static void Main(string[] args)
