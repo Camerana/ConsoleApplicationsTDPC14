@@ -4,9 +4,15 @@ namespace ConsoleApplicationsTDPC14
 {
     internal class Program
     {
+        /*
+         Il distributore !!!
+        (o il tris.. !)
+         */
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("|___|___|___|");
+            Console.WriteLine("|___|___|___|");
+            Console.WriteLine("|___|___|___|");
         }
     }
 }
